@@ -57,22 +57,22 @@ select {
     <br>
 	<form id="frm" action="showProfile.jsp" method="post">
 		<fieldset>
-			<legend>Residential Details</legend>
+			<legend><font color="red" size="5">Residential Details</font></legend>
 			<font size="5">Permanent Address</font>
-			<input type="textarea" name="permanentAddr" placeholder="Permanent Address" required>
+			<input type="textarea" name="permanentAddr" placeholder="Permanent Address" required><br><br>
 			<font size="5">City</font>
-			<input type="text" name="city" placeholder="City(For eg. Pune)" required>
+			<input type="text" name="city" placeholder="City(For eg. Pune)" required><br><br>
 			<font size="5">state</font>
-			<input type="text" name="state" placeholder="State(For eg. Maharastra)" required>
+			<input type="text" name="state" placeholder="State(For eg. Maharastra)" required><br><br>
 			<font size="5">Country</font>
-			<input type="text" name="country" placeholder="Country(For eg. India)" required>
+			<input type="text" name="country" placeholder="Country(For eg. India)" required><br><br>
 			<font size="5">Pincode</font>
-			<input type="number" name="pincode" placeholder="Pincode" required>
+			<input type="number" name="pincode" placeholder="Pincode" required><br><br>
 			<font size="5">Mobile Number</font>
-			<input type="text" name="mob" placeholder="Mobile Number(For Eg. 9807960796)" required>
+			<input type="text" name="mob" placeholder="Mobile Number(For Eg. 9807960796)" required><br><br>
 		 </fieldset>
 		 <font size="5">
-		 </font> <br> <input type="submit" value="Step III ->">
+		 </font> <br> <input type="submit" value="Submit">
 	</form>
 
 </body>

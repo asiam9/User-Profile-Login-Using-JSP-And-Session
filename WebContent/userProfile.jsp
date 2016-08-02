@@ -30,7 +30,7 @@ select {
 	<br>
 	<form id="frm" action="userProfile2.jsp" method="post">
 		<fieldset>
-			<legend>Graduation</legend>
+			<legend><font size="5" color="red">Graduation</font></legend>
 			<font size="5">Degree</font>
 			<input type="textarea" name="degree" placeholder="Degree" required><br> <br>
 			<font size="5">College/University</font>
@@ -49,41 +49,41 @@ select {
 		</fieldset>
 		
 		<fieldset>
-		  <legend>10+2(Senior Secondary)</legend>
+		  <legend><font size="5" color="red">10+2(Senior Secondary)</font></legend>
 		     <font size="5">Board</font>
-		     <input type="textarea" name="board12" placeholder="Board of Exam(for eg. C.B.S.E)" required>
+		     <input type="textarea" name="board12" placeholder="Board of Exam(for eg. C.B.S.E)" required><br> <br>
 		     <font size="5">Name of College/School</font>
-		     <input type="textarea" name="school12" placeholder="Name Of College/School" required>
+		     <input type="textarea" name="school12" placeholder="Name Of College/School" required><br> <br>
 		     <font size="5">City</font>
-		     <input type="text" name="city12" placeholder="City(For eg. Pune)" required>
+		     <input type="text" name="city12" placeholder="City(For eg. Pune)" required><br> <br>
 		     <font size="5">Year of passing</font>
 		     <select name="year12" id="year12">
 				<option>2013</option>
 				<option>2014</option>
 				<option>2015</option>
 				<option>2016</option>
-			 </select>
+			 </select><br> <br>
 		     <font size="5">10+2 Percentage</font>
-		     <input type="text" name="percentage12" placeholder="10+2 Percentage(For eg. 87)" required>
+		     <input type="text" name="percentage12" placeholder="10+2 Percentage(For eg. 87)" required><br> <br>
 		</fieldset>
 		
 		<fieldset>
-		  <legend>10(High School)</legend>
+		  <legend><font size="5" color="red">10(High School)</font></legend>
 		     <font size="5">Board</font>
-		     <input type="textarea" name="board10" placeholder="Board of Exam(for eg. C.B.S.E)" required>
+		     <input type="textarea" name="board10" placeholder="Board of Exam(for eg. C.B.S.E)" required><br> <br>
 		     <font size="5">Name of College/School</font>
-		     <input type="textarea" name="school10" placeholder="Name Of College/School" required>
+		     <input type="textarea" name="school10" placeholder="Name Of College/School" required><br> <br>
 		     <font size="5">City</font>
-		     <input type="text" name="city10" placeholder="City(For eg. Pune)" required>
+		     <input type="text" name="city10" placeholder="City(For eg. Pune)" required><br> <br>
 		     <font size="5">Year of passing</font>
 		     <select name="year10" id="year10">
 				<option>2013</option>
 				<option>2014</option>
 				<option>2015</option>
 				<option>2016</option>
-			 </select>
+			 </select><br> <br>
 		     <font size="5">10 Percentage</font>
-		     <input type="text" name="percentage10" placeholder="10 Percentage(For eg. 87)" required>
+		     <input type="text" name="percentage10" placeholder="10 Percentage(For eg. 87)" required><br> <br>
 		</fieldset>
 		<br> <font size="5"></font> <br> <input type="submit" value="Step II ->">
 	</form>
