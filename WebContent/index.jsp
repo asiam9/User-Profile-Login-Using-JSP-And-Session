@@ -5,15 +5,23 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
+<style type="text/css">
+input[type=text],input[type=password] {
+	width: 80%;
+	float: right;
+	padding: 12px 20px;
+	box-sizing: border-box;
+}
+</style>
 </head>
 <body>
 <h1>User Login</h1>
     <form name="frm" action="userProfile.jsp" method="post">
-        Name: 
-        <input type="text" name="name" placeholder="UserName"/>
+        <font size="5">Name:</font> 
+        <input type="text" name="name" placeholder="UserName" required/>
         <br>
-        Password: 
-        <input type="password" name="password" placeholder="password"/>
+        <font size="5">Password: </font>
+        <input type="password" name="password" placeholder="password" required/>
         <br>
         <input type="submit" name="btn" value="LOGIN" />
 </body>

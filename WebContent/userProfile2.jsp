@@ -9,26 +9,6 @@
 <%
 	} else {
 		
-		String degree = request.getParameter("degree");
-		String college = request.getParameter("college");
-		String city = request.getParameter("city");
-		String percentage =request.getParameter("percentage");
-		String board12 = request.getParameter("board12");
-		String city12 = request.getParameter("city12");
-		String school12 = request.getParameter("school12");
-		String percentage12 = request.getParameter("percentage12");
-		String board10 = request.getParameter("board10");
-		String city10 = request.getParameter("city10");
-		String school10 = request.getParameter("school10");
-		String percentage10 = request.getParameter("percentage10");
-		
-		if(!degree.matches("[a-zA-Z\\s']+")||!college.matches("[a-zA-Z\\s']+")||!city.matches("[a-zA-Z\\s']+")||!percentage.matches("\\d+(?:\\.\\d+)?")||!board12.matches("[a-zA-Z\\s']+")||!school12.matches("[a-zA-Z\\s']+")||!city12.matches("[a-zA-Z\\s']+")||!percentage12.matches("\\d+(?:\\.\\d+)?")||!board10.matches("[a-zA-Z\\s']+")||!school10.matches("[a-zA-Z\\s']+")||!city10.matches("[a-zA-Z\\s']+")||!percentage10.matches("\\d+(?:\\.\\d+)?")){
-		%>	
-			<font color="red">Fill The Values correct</font>
-			<jsp:include page="userProfile.jsp"></jsp:include>
-		<% 
-		}
-		else{
 %>
 
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
@@ -85,5 +65,4 @@ select {
 </html>
 <%
 		}
-	}
 %>
